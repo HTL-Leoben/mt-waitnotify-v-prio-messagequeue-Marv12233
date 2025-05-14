@@ -32,4 +32,11 @@ public class Message
     {
         this.content = content;
     }
+
+    @Override
+    public String toString()
+    {
+        return (isPriority ? "true" : "false") + ", " + content;
+    }
+
 }

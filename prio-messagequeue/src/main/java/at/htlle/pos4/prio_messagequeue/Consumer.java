@@ -8,7 +8,7 @@ class Consumer extends Thread
     private PriorityMessageQueue queue;
 
     // Constructor, getter, setter
-    public Consumer(String name, PriorityMessageQueue queue)
+    Consumer(String name, PriorityMessageQueue queue)
     {
         this.name = name;
         this.queue = queue;
